@@ -111,8 +111,8 @@
 		global.TextEncoder = te.TextEncoder;
 		global.TextDecoder = te.TextDecoder;
 	}
-	var utf8encoder = TextEncoder("utf-8");
-	var utf8decoder = TextDecoder("utf-8");
+	var utf8encoder = new TextEncoder("utf-8");
+	var utf8decoder = new TextDecoder("utf-8");
 	
 	function encode(v, a) {
 		switch (typeof v) {

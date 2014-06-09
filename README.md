@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/kevincox/altjson.js.png?branch=master)](https://travis-ci.org/kevincox/altjson.js)
 
+[![Browser Support](https://ci.testling.com/kevincox/altjson.js.png)](https://ci.testling.com/kevincox/altjson.js)
+
 Javascript implementation of AltJSON encoding.  AltJSON is an alternative
 encoding for JSON designed to be more efficient while maintaining the same data
 model.  Use JSON as your regular interface but speed it up when available using

@@ -1,5 +1,5 @@
 {
-	"name": "AltJSON",
+	"name": "altjson",
 	"version": "1.0.0",
 	"description": "An alternative, more efficent, encoding for JSON.",
 	"main": "altjson.js",

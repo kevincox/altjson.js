@@ -1,0 +1,8 @@
+*.min.js
+*.gz
+node_modules/
+/test.html
+/test.min.html
+/test.web.html
+require.js
+*.map

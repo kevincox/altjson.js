@@ -31,3 +31,9 @@ AltJSON; // When just included in a webpage.
 AltJSON.encode([1,2,3]) //=> Uint8Array([0xC3,1,2,3])
 AltJSON.decode(new Uint8Array([0x81])) //=> true
 ```
+
+AltJSON is on npm.
+
+```sh
+npm install altjson
+```

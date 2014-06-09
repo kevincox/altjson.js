@@ -184,7 +184,7 @@
 			v.setUint32(1, i / Math.pow(2,32)); // Divide because bitwise operations
 			v.setUint32(5, i);                  // truncate to 32 bits.
 			a.push(b);
-		} else throw new TypeError("Can't encode "+i);
+		} else return eDouble(i, a); // If it is really big use a double.
 		
 		return a;
 	}

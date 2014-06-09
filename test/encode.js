@@ -22,16 +22,12 @@
 *                                                                              *
 *******************************************************************************/
 
-if ( typeof require == "function" )
-{
-	var chai    = require("chai");
-	var AltJSON = require("../altjson.js");
-}
-
-var expect = chai.expect;
+var chai = require("chai");
 chai.config.includeStack = true;
+var expect = chai.expect;
 
-var aj = AltJSON;
+var aj = require("../altjson.js");
+var bb = function(){ return new Uint8Array(arguments) }
 
 describe(".encode()", function()
 {
